@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+    />
+    <title>T-shirt Land</title>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img"
+                    src="https://cdn.example.com/tshirt-logo.png"
+                    alt="T-shirt Land Logo"
+                />
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container"></div>
+
+        <section id="hero">
+            <h2>Discover Your Style with T-shirt Land</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input name="email" id="email" type="email"
+                    placeholder="Enter your email address" required
+                />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </section>
+
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-paint-brush"></i></div>
+                    <div class="desc">
+                        <h2>Custom Designs</h2>
+                        <p>
+                            Explore a wide range of T-shirts with custom and unique designs
+                            that express your personality.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="desc">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                            Enjoy quick and reliable shipping services to get your favorite
+                            T-shirts delivered to your doorstep.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-certificate" aria-hidden="true"></i></div>
+                    <div class="desc">
+                        <h2>Quality Fabric</h2>
+                        <p>
+                            Our T-shirts are made from premium quality fabrics to ensure
+                            comfort and durability with every wear.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="how-it-works">
+                <iframe id="video" height="315"
+                    src="https://www.youtube-nocookie.com/embed/example-video?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0" allowfullscreen
+                ></iframe>
+            </section>
+
+            <section id="pricing">
+                <div class="product" id="casual">
+                    <div class="level">Casual T-shirt</div>
+                    <h2>$25</h2>
+                    <ol>
+                        <li>Comfortable fit</li>
+                        <li>Various color options</li>
+                        <li>Perfect for everyday wear</li>
+                        <li>Machine washable</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="graphic">
+                    <div class="level">Graphic T-shirt</div>
+                    <h2>$30</h2>
+                    <ol>
+                        <li>Unique graphic designs</li>
+                        <li>Available in different sizes</li>
+                        <li>High-quality printing</li>
+                        <li>100% cotton</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="premium">
+                    <div class="level">Premium T-shirt</div>
+                    <h2>$40</h2>
+                    <ol>
+                        <li>Luxurious fabric</li>
+                        <li>Elegant and stylish</li>
+                        <li>Long-lasting quality</li>
+                        <li>Handcrafted details</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
+
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>&copy; 2023 T-shirt Land</span>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
